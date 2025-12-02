@@ -18,7 +18,9 @@ def main():
     
     while True:
         print("LEFT", flush=True)
-            
+        print("UP", flush=True)
+        print("DOWN", flush=True)
+        print("RIGHT", flush=True)
 
 if __name__ == "__main__":
     main()
