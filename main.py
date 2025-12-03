@@ -15,8 +15,14 @@ def main():
     log("开始！")
 
     print("task 1",flush=True)
-    
+
+
     while True:
+
+        img_path = sys.stdin.readline().strip()
+        log(f"读取到图片路径: {img_path}")
+        img = cv2.imread(img_path)
+        
         print("LEFT", flush=True)
         print("UP", flush=True)
         print("DOWN", flush=True)
